@@ -26,7 +26,7 @@
         }
 
         public function testResta(){
-            $this->assertEquals(6, $this->PC->resta(7,6));   
+            $this->assertEquals(6, $this->PC->resta(9,3));   
         }
 
         public function testMultiplicacion(){
