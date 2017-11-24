@@ -22,7 +22,7 @@
             $this->assertEquals(10, $this->PC->suma(7,3));
         }
         public function testSuma2(){            
-            $this->assertEquals(-1, $this->PC->suma(-0.5,-0.15));
+            $this->assertEquals(-1, $this->PC->suma(-0.5,-0.5));
         }
 
         public function testResta(){
